@@ -16,6 +16,7 @@ body {
   height: 700px;
   margin: 20px auto;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 h1 {
@@ -47,7 +48,7 @@ h1 {
   border-radius: 10px;
   background-color: greenyellow;
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
   cursor: pointer;
 }
@@ -61,7 +62,7 @@ h1 {
   justify-content: space-between;
 }
 
-.container-list ul li {
+.list-style {
   display: flex;
   justify-content: space-between;
   margin: 10px 20px;
@@ -79,4 +80,9 @@ h1 {
 .img {
   width: 45px;
   cursor: pointer;
+}
+
+.check {
+  background-color: greenyellow;
+  text-decoration: line-through;
 }
